@@ -5,9 +5,6 @@ Version:	0.8.1
 Release:	2
 License:	GPL
 Group:		Development/Tools
-Group(de):	Entwicklung/Werkzeuge
-Group(fr):	Development/Outils
-Group(pl):	Programowanie/Narzêdzia
 Source0:	http://prdownloads.sourceforge.net/njamd/%{name}-%{version}.tar.gz
 Patch0:		%{name}-ia64.patch
 Patch1:		%{name}-0.8.0-nogui.patch
