@@ -5,11 +5,11 @@ Version:	0.8.1
 Release:	2
 License:	GPL
 Group:		Development/Tools
-Source0:	http://prdownloads.sourceforge.net/njamd/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/njamd/%{name}-%{version}.tar.gz
 Patch0:		%{name}-ia64.patch
 Patch1:		%{name}-0.8.0-nogui.patch
 Patch2:		%{name}-0.8.1-64.patch
-URL:		http://sourceforge.net/projects/njamd
+URL:		http://sourceforge.net/projects/njamd/
 %ifarch ia64
 BuildRequires:	autoconf
 %endif
@@ -58,7 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 %makeinstall
 
 %clean
-rm -rf %{buildroot}
+rm -rf $RPM_BUILD_ROOT
 
 %post	-p /sbin/ldconfig
 %postun	-p /sbin/ldconfig
