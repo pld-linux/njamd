@@ -44,7 +44,7 @@ wiêcej RAM-u do wygodnego odpluskwiania.
 %setup -q
 %ifarch ia64
 %patch0 -p1
-autoconf
+%{__autoconf}
 %endif
 %patch1 -p1
 %patch2 -p1
