@@ -2,7 +2,7 @@ Summary:	A debugger which detects memory allocation violations
 Summary(pl):	Odpluskwiacz wykrywaj±cy naruszenia alokacji pamiêci
 Name:		njamd
 Version:	0.8.1
-Release:	2
+Release:	0.1
 License:	GPL
 Group:		Development/Tools
 Source0:	http://dl.sourceforge.net/njamd/%{name}-%{version}.tar.gz
