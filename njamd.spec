@@ -32,10 +32,10 @@ debugging.
 NJAMD jest debuggerem malloca, zabezpieczaj±cym przed wszystkimi
 popularnymi b³êdami zwi±zanymi ze zmiennymi dynamicznymi
 (przekroczenie zakresu w górê i w dó³, zapisy do zwolnionej pamiêci,
-wycieki pamiêci) bez rekompilacji ani nawet relinkowania binarki.
-NAJMD mo¿e ¶ledziæ wycieki pamiêci nawet przez dowolne funkcje
-biblioteczne u¿ywaj±ce malloc(3), takie jak strdup(3), alokacje
-widgetów GUI, a tak¿e new i delete z C++.
+wycieki pamiêci) bez rekompilacji ani nawet ponownej konsolidacji
+binarki. NAJMD mo¿e ¶ledziæ wycieki pamiêci nawet przez dowolne
+funkcje biblioteczne u¿ywaj±ce malloc(3), takie jak strdup(3),
+alokacje widgetów GUI, a tak¿e new i delete z C++.
 
 NAJMD jest wystarczaj±co szybki do codziennego u¿ytku i wystarczaj±co
 lekki by ¶ledziæ wiêkszo¶æ aplikacji. Du¿e aplikacje bêd± potrzebowa³y
