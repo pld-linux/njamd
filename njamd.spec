@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		Development/Tools
 Source0:	http://dl.sourceforge.net/njamd/%{name}-%{version}.tar.gz
+# Source0-md5:	16b934472154fecc2dcc75089dcbc2fa
 Patch0:		%{name}-ia64.patch
 Patch1:		%{name}-0.8.0-nogui.patch
 Patch2:		%{name}-0.8.1-64.patch
