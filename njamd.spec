@@ -1,5 +1,5 @@
 Summary:	A debugger which detects memory allocation violations
-Summary(pl):	Odpluskwiacz wykrywaj±cy naruszenia alokacji pamiêci
+Summary(pl.UTF-8):   Odpluskwiacz wykrywajÄ…cy naruszenia alokacji pamiÄ™ci
 Name:		njamd
 Version:	0.8.1
 Release:	0.1
@@ -28,18 +28,18 @@ NJAMD is fast enough for everyday use, and light enough to debug most
 applications. Large applications will require more RAM for comfortable
 debugging.
 
-%description -l pl
-NJAMD jest debuggerem malloca, zabezpieczaj±cym przed wszystkimi
-popularnymi b³êdami zwi±zanymi ze zmiennymi dynamicznymi
-(przekroczenie zakresu w górê i w dó³, zapisy do zwolnionej pamiêci,
-wycieki pamiêci) bez rekompilacji ani nawet ponownej konsolidacji
-binarki. NAJMD mo¿e ¶ledziæ wycieki pamiêci nawet przez dowolne
-funkcje biblioteczne u¿ywaj±ce malloc(3), takie jak strdup(3),
-alokacje widgetów GUI, a tak¿e new i delete z C++.
+%description -l pl.UTF-8
+NJAMD jest debuggerem malloca, zabezpieczajÄ…cym przed wszystkimi
+popularnymi bÅ‚Ä™dami zwiÄ…zanymi ze zmiennymi dynamicznymi
+(przekroczenie zakresu w gÃ³rÄ™ i w dÃ³Å‚, zapisy do zwolnionej pamiÄ™ci,
+wycieki pamiÄ™ci) bez rekompilacji ani nawet ponownej konsolidacji
+binarki. NAJMD moÅ¼e Å›ledziÄ‡ wycieki pamiÄ™ci nawet przez dowolne
+funkcje biblioteczne uÅ¼ywajÄ…ce malloc(3), takie jak strdup(3),
+alokacje widgetÃ³w GUI, a takÅ¼e new i delete z C++.
 
-NAJMD jest wystarczaj±co szybki do codziennego u¿ytku i wystarczaj±co
-lekki by ¶ledziæ wiêkszo¶æ aplikacji. Du¿e aplikacje bêd± potrzebowa³y
-wiêcej RAM-u do wygodnego odpluskwiania.
+NAJMD jest wystarczajÄ…co szybki do codziennego uÅ¼ytku i wystarczajÄ…co
+lekki by Å›ledziÄ‡ wiÄ™kszoÅ›Ä‡ aplikacji. DuÅ¼e aplikacje bÄ™dÄ… potrzebowaÅ‚y
+wiÄ™cej RAM-u do wygodnego odpluskwiania.
 
 %prep
 %setup -q
