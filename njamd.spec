@@ -1,5 +1,5 @@
 Summary:	A debugger which detects memory allocation violations
-Summary(pl.UTF-8):   Odpluskwiacz wykrywający naruszenia alokacji pamięci
+Summary(pl.UTF-8):	Odpluskwiacz wykrywający naruszenia alokacji pamięci
 Name:		njamd
 Version:	0.8.1
 Release:	0.1
